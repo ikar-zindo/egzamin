@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Tajemnicza galeria</title>
+	
+	<link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+
+	<div class="main">
+		<div class="baner">
+			<a href="../index.html">
+				<p class="algorytmy" style="padding-top: 20px;">ALGORYTMY</p>
+				<p class="algorytmy">JAVA SCRIPT</p>
+				<div class="oval"></div>
+				<img src="../img/oval.png" class="oval">
+				<img src="../img/triangle-up.png" class="triangle-up">
+			</a>
+		</div>
+
+		<div class="menu">
+			<p style="font-weight: bold; padding-left: 6px;">Menu:</span></p>
+			<a href="../podstrony/kalkulator.html" class="menu-link">Kalkulator</a><br>
+			<a href="../podstrony/tajemnicza_galeria.html" class="menu-link">Tajemnicza galeria</a>
+		</div>
+
+		<div class="tajemnicza_galeria">
+
+			<script language="javascript" type="text/javascript">
+
+				var passwords = "egzamin";
+
+				function sprawdz_haslo(pass) {  
+				  if(pass == passwords){
+						return true;
+				  }
+				}
+				function check() {
+				  var pass = document.formularz2.pass.value;
+				  if(!sprawdz_haslo(pass)){
+						alert("Niepoprawne dane!");
+					}
+				  else {
+					 document.location.href = "galeria.html";
+				  }
+				}
+			</script>
+
+			<form action="" name="formularz2">
+
+				<br>
+				<span class="tekst3">Wpisz hasło</span>
+
+				<input type="password" name="pass" class="haslo">
+
+				<br><br>
+				<button id="przycisk2" type="button" class="przycisk2" onclick="check();">Przejdź</button>
+
+			</form>
+		</div>
+
+		<div class="czas">
+			<p>ostatnia aktualizacja: 
+				<script>
+					document.write(document.lastModified);
+				</script>
+			</p>
+		</div>
+	</div>
+	 
+</body>
+</html>

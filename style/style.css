@@ -1,0 +1,151 @@
+body {
+	width: 980px;
+	background-color: lightgrey;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.oval {
+	position: absolute;
+	top: 25px;
+	left: 70px;
+	height: 30px;
+}
+
+.triangle-up {	
+	position: absolute;
+	top: 22px;
+	left: 370px;
+	height: 30px;
+}
+
+.main {
+	margin: -1px;
+	position: relative;
+	width: 700px;
+	height: 300px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.baner {
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	border: 1px solid black;
+}
+
+.baner a {
+	display: block;
+	text-align: center;
+	height: 100%;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.algorytmy {
+	padding: 0;
+	font-weight: bold;
+}
+
+ .menu {
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	left: 500px;
+	border: 1px solid black;
+	border-left: 0;
+	text-align: left;
+	font-size: 15px;
+}
+
+.menu-link {
+	padding: 6px;
+}
+
+.czas {
+	height: 20px;
+	width: 699PX;
+	position: absolute;
+	top: 280px;
+	background-color: rgb(12, 109, 175);
+	border: 1px solid black;
+	text-align: right;
+}
+
+.kalkulator_app {
+	position: absolute;
+	top: 102px;
+	width: 700px;
+	height: 179px;
+	background-color: rgb(170, 211, 243);
+}
+
+.okno_tekst {
+	width: 50px;
+	height: 25px;
+}
+
+.tekst1 {
+	font-size: 20px;
+}
+
+.tekst2 {
+	font-size: 30px;
+}
+
+.przycisk1 {
+	font-size: 25px;
+	width: 120px;
+	height: 30px;
+}
+
+.tajemnicza_galeria {
+	position: absolute;
+	top: 102px;
+	width: 700px;
+	height: 179px;
+	background-color: yellowgreen;
+}
+
+.tekst3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.haslo {
+	height: 20px;
+	width: 100px;
+	text-align: center;
+}
+
+.przycisk2 {
+	font-size: 25px;
+	width: 120px;
+	height: 50px;
+}
+
+.przycisk2:hover {
+	width: 150px;
+	height: 60px;
+}
+
+.przycisk2:active {
+	width: 150px;
+	height: 60px;
+	background-color: teal;
+	color: tomato;
+}
+
+.img_egzamin {
+	height: 80px;
+	margin: 0;
+	margin-top: 4px;
+}
